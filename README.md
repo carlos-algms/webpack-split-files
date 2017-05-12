@@ -23,6 +23,6 @@ Given this configuration, webpack will produce the following bundles:
   - `axios`
   - `util/util1`
 - `index`
-  - 
+  - no bundle
 - `index2`
   - `util/util2`
