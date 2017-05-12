@@ -1,0 +1,23 @@
+{
+  "name": "webpack-chunks",
+  "version": "1.0.0",
+  "description": "webpack-chunks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist/ && webpack"
+  },
+  "author": "Carlos A. Gomes (http://carlos-algms.github.io)",
+  "repository": [],
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.16.1",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.5.1"
+  }
+}
